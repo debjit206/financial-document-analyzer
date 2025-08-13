@@ -14,9 +14,13 @@ import fitz  # PyMuPDF for PDF processing
 
 import google.generativeai as genai
 
+# Check if API key is available
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+if not GOOGLE_API_KEY:
+    st.error("❌ GOOGLE_API_KEY not found. Please set your API key in environment variables.")
+    st.stop()
 
-os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=GOOGLE_API_KEY)
 
 ## Function to load Gemini model and get responses
 
