@@ -13,7 +13,7 @@ A powerful AI-powered tool for analyzing financial documents using Google's Gemi
 
 ## 🚀 Live Demo
 
-[View the live application on Hugging Face Spaces]([https://huggingface.co/spaces/YOUR_USERNAME/financial-document-analyzer](https://huggingface.co/spaces/Debu206/financial-document-analyzer))
+[View the live application on Hugging Face Spaces](https://huggingface.co/spaces/Debu206/financial-document-analyzer)
 
 ## 🛠️ Technology Stack
 
