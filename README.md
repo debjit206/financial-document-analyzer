@@ -114,6 +114,3 @@ financial-document-analyzer/
 - **Financial Focus**: Only analyzes financial documents, rejects other content
 - **Local Processing**: All analysis happens on Hugging Face servers
 
----
-
-**Made with ❤️ for financial professionals and analysts** 
