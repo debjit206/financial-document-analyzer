@@ -22,8 +22,6 @@ A powerful AI-powered tool for analyzing financial documents using Google's Gemi
 - **PDF Processing**: PyMuPDF (fitz)
 - **Image Processing**: Pillow (PIL)
 - **Environment**: Python 3.8+
-- **Deployment**: Hugging Face Spaces
-- **Version Control**: Git & GitHub
 
 ## 📋 Supported Document Types
 
@@ -76,30 +74,6 @@ A powerful AI-powered tool for analyzing financial documents using Google's Gemi
    streamlit run main.py
    ```
 
-### GitHub Setup
-
-1. **Initialize Git repository**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Financial Document Analyzer"
-   ```
-
-2. **Connect to GitHub**
-   ```bash
-   git remote add origin https://github.com/yourusername/financial-document-analyzer.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-### Hugging Face Deployment
-
-1. **Create a new Space** on [Hugging Face Spaces](https://huggingface.co/spaces)
-2. **Choose Streamlit SDK**
-3. **Link to GitHub repository** for auto-deployment
-4. **Add GOOGLE_API_KEY** as a secret in Space settings
-5. **Deploy and enjoy!**
-
 ## 🔑 Environment Variables
 
 - `GOOGLE_API_KEY`: Your Google Gemini API key (required)
@@ -114,7 +88,6 @@ financial-document-analyzer/
 │   └── config.toml          # App configuration
 ├── README.md                 # Project documentation
 ├── .gitignore               # Git ignore file
-├── DEPLOYMENT.md            # Deployment guide
 └── .env                     # Environment variables (local only)
 ```
 
@@ -131,6 +104,8 @@ financial-document-analyzer/
 - "Calculate the tax amount"
 - "What are the payment terms?"
 - "When is this invoice due?"
+- "What is the invoice date?"
+- "Who is the vendor/supplier?"
 
 ## 🔒 Security & Privacy
 
