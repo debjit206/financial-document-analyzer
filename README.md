@@ -1,21 +1,21 @@
-# 🔍 Financial Document Analyzer
+# Financial Document Analyzer
 
 A powerful AI-powered tool for analyzing financial documents using Google's Gemini 1.5 Flash model. Extract insights, perform calculations, and get professional financial analysis from invoices, financial statements, annual reports, and more.
 
-## ✨ Features
+## Features
 
-- **📄 Multi-Format Support**: Analyze JPG, PNG, JPEG, and PDF documents
-- **🧮 Financial Calculations**: Automatic computation of P/E ratios, profit margins, debt-to-equity ratios, and more
-- **📊 Comprehensive Analysis**: Handle invoices, financial statements, annual reports, and investment documents
-- **🔒 Financial-Focused**: Strictly analyzes financial documents only
-- **💾 Export Results**: Download analysis reports for further use
-- **📱 Responsive Design**: Modern, user-friendly interface
+- ** Multi-Format Support**: Analyze JPG, PNG, JPEG, and PDF documents
+- ** Financial Calculations**: Automatic computation of P/E ratios, profit margins, debt-to-equity ratios, and more
+- ** Comprehensive Analysis**: Handle invoices, financial statements, annual reports, and investment documents
+- ** Financial-Focused**: Strictly analyzes financial documents only
+- ** Export Results**: Download analysis reports for further use
+- ** Responsive Design**: Modern, user-friendly interface
 
-## 🚀 Live Demo
+## Live Demo
 
 [View the live application on Hugging Face Spaces](https://huggingface.co/spaces/Debu206/financial-document-analyzer)
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: Streamlit
 - **AI Model**: Google Gemini 1.5 Flash
@@ -23,7 +23,7 @@ A powerful AI-powered tool for analyzing financial documents using Google's Gemi
 - **Image Processing**: Pillow (PIL)
 - **Environment**: Python 3.8+
 
-## 📋 Supported Document Types
+## Supported Document Types
 
 - **Invoices & Receipts**: Payment details, totals, tax calculations
 - **Financial Statements**: Income statements, balance sheets, cash flow statements
@@ -32,7 +32,7 @@ A powerful AI-powered tool for analyzing financial documents using Google's Gemi
 - **Tax Documents**: Tax calculations, deductions, liabilities
 - **Bank Statements**: Transaction analysis, balance calculations
 
-## 🧮 Financial Calculations Available
+## Financial Calculations Available
 
 - **P/E Ratio**: Market Price per Share / Earnings per Share
 - **Debt-to-Equity**: Total Debt / Total Shareholders' Equity
@@ -42,7 +42,7 @@ A powerful AI-powered tool for analyzing financial documents using Google's Gemi
 - **Current Ratio**: Current Assets / Current Liabilities
 - **And many more...**
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Local Development
 
@@ -74,11 +74,11 @@ A powerful AI-powered tool for analyzing financial documents using Google's Gemi
    streamlit run main.py
    ```
 
-## 🔑 Environment Variables
+## Environment Variables
 
 - `GOOGLE_API_KEY`: Your Google Gemini API key (required)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 financial-document-analyzer/
@@ -91,7 +91,7 @@ financial-document-analyzer/
 └── .env                     # Environment variables (local only)
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Example Questions for Financial Statements:
 - "What is the P/E ratio for 2024?"
@@ -107,7 +107,7 @@ financial-document-analyzer/
 - "What is the invoice date?"
 - "Who is the vendor/supplier?"
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - **No Data Storage**: Documents are processed in memory and not stored
 - **API Key Security**: API keys are stored securely as environment variables
